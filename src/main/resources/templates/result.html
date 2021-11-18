@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Movie Recommendation System</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Result</h1>
+
+	<ol>
+    <li th:text="${recommend[0]}"></li>
+    <li th:text="${recommend[1]}"></li>
+    <li th:text="${recommend[2]}"></li>
+    <li th:text="${recommend[3]}"></li>
+    <li th:text="${recommend[4]}"></li>
+    <li th:text="${recommend[5]}"></li>
+    <li th:text="${recommend[6]}"></li>
+    <li th:text="${recommend[7]}"></li>
+    <li th:text="${recommend[8]}"></li>
+    <li th:text="${recommend[9]}"></li>
+    <li th:text="${recommend[10]}"></li>
+	</ol>
+    <a href="/movie">Submit another movie name</a>
+</body>
+</html>
